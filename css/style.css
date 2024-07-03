@@ -1,0 +1,142 @@
+body {
+    background-color: #000;
+    color: rgba(197, 197, 189, 0.70);
+}
+
+header {
+    background-color: #000;
+    color: rgba(197, 197, 189, 0.70);
+    padding: 10px 0;
+    font-family: "Work Sans";
+    font-size: 40px;
+    font-weight: 400;
+    line-height: normal;
+    position: relative;
+}
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 10px;
+    padding: 10 20px;
+}
+.header-nav ul {
+    list-style-type: none;
+    margin: 10px;
+    padding: 10;
+    display: flex;
+}
+.header-nav li {
+    margin-right: 60px;
+}
+.header-nav a {
+    color: rgba(197, 197, 189, 0.70);
+    text-decoration: none;
+    font-size: 16px;
+
+}
+.header-nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding:20px
+}
+
+.heroImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color:#000;
+}
+
+.content {
+    text-align: center;
+    max-width:1000px;
+}
+
+.content img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    display: block;
+    margin: 20px auto 10px auto;
+    float: right;
+}
+
+.text-content {
+    max-width: 4000px;
+    text-align: left;
+    position: relative;
+    margin: 70px 0px;
+    margin-right: 500px;
+}
+
+.text-content h2 {
+    margin-top: 20px;
+    text-align: left;
+    font-size: 50px
+}
+
+.text-content p {
+    margin: 10px 0;
+    text-align: left;
+    line-height: 27px;
+}
+
+footer {
+    background-color: #000;
+    color: rgba(197, 197, 189, 0.70);
+    padding: 20px 0;
+    overflow: auto;
+}
+
+.footer-container {
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    max-width: 3000px;
+    margin: 0 auto;
+    padding: 0 20px;
+    overflow: auto;
+}
+
+.footer-left ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: start;
+}
+
+.footer-left ul li {
+    margin-bottom: 10px;
+}
+
+.footer-left ul li:hover {
+    text-decoration: underline;
+}
+
+.footer-left ul li a {
+    color: rgba(197, 197, 189, 0.70);
+    text-decoration: none;
+}
+
+.footer-center {
+    text-align: center;
+}
+
+.footer-center img {
+    max-width: 80px;
+    height: auto;
+}
+
+.footer-right p {
+    margin: 0;
+    text-align: end;
+}
+
+.footer-right p:hover {
+    text-decoration: underline;
+}
